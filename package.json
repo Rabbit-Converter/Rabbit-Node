@@ -1,0 +1,34 @@
+{
+  "name": "rabbit-node",
+  "version": "1.0.1",
+  "description": "Another Zawgyi <=> Unicode Converter for nodejs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "test": "^0.6.0"
+  },
+  "scripts": {
+    "test": "node test/rabbit-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rabbit-Converter/Rabbit-Node.git"
+  },
+  "keywords": [
+    "text-converter"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "Arkar Aung <darkar1001@gmail.com> (http://arkaraung.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rabbit-Converter/Rabbit-Node/issues"
+  },
+  "homepage": "https://github.com/Rabbit-Converter/Rabbit-Node#readme",
+  "_id": "rabbit-node@1.0.1"
+}
