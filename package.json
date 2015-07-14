@@ -1,13 +1,12 @@
 {
   "name": "rabbit-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Another Zawgyi <=> Unicode Converter for nodejs",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "test": "^0.6.0"
   },
