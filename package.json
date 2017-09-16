@@ -4,30 +4,39 @@
   "description": "Another Zawgyi <=> Unicode Converter for nodejs",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "lib": "lib"
   },
-  "dependencies": {},
   "devDependencies": {
-    "test": "^0.6.0"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "test": "^0.6.0",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.6.0"
   },
   "scripts": {
-    "test": "node test/rabbit-test.js"
+    "babel": "babel --presets es2015 lib/main.js -o dist/rabbit.js",
+    "test": "mocha",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rabbit-Converter/Rabbit-Node.git"
   },
   "keywords": [
-    "text-converter"
+    "text-converter",
+    "zawgyi-unicode-converter"
   ],
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 6.9.0"
   },
   "author": "Arkar Aung <darkar1001@gmail.com> (http://arkaraung.me)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Rabbit-Converter/Rabbit-Node/issues"
   },
-  "homepage": "https://github.com/Rabbit-Converter/Rabbit-Node#readme",
-  "_id": "rabbit-node@1.0.1"
+  "homepage": "https://github.com/Rabbit-Converter/Rabbit-Node#readme"
 }
