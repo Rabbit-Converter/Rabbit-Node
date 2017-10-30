@@ -671,8 +671,8 @@ var replace_with_rule = function replace_with_rule(rule, output) {
 };
 
 var Rabbit = {
-  "zg2uni": zg2uni,
-  "uni2zg": uni2zg
+  zg2uni: zg2uni,
+  uni2zg: uni2zg
 };
 
 module.exports = Rabbit;
