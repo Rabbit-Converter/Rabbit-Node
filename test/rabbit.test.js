@@ -1,5 +1,5 @@
 const chai = require('chai');
-const Rabbit = require('./../index');
+const Rabbit = require('./../lib/rabbit.js');
 const should = chai.should();
 
 describe('Converting',()=>{
