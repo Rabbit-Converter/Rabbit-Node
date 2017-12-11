@@ -1,1 +1,1 @@
-module.exports = require('./lib/rabbit');
+module.exports = require('./dist/rabbit.min.js');

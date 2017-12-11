@@ -29,6 +29,18 @@ Install using npm:
 npm install rabbit-node --save
 ```
 
+Install using yarn:
+
+```node
+yarn add rabbit-node
+```
+
+Using CDN:
+
+```html
+<script src="https://unpkg.com/rabbit-node@1.0.2/dist/rabbit.min.js"></script>
+```
+
 ## Usage
 
 ```node
